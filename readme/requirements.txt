@@ -1,0 +1,11 @@
+# Core dependencies
+streamlit
+joblib
+scikit-learn
+numpy
+matplotlib
+nltk
+requests
+
+# Optional animation support
+streamlit-lottie
