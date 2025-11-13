@@ -3,9 +3,13 @@ import joblib
 import re
 import string
 import matplotlib.pyplot as plt
-import numpy as np
-from nltk.corpus import stopwords
+import numpy as npimport nltk
 
+# Ensure stopwords are downloaded
+nltk.download('stopwords')
+
+from nltk.corpus import stopwords
+STOPWORDS = set(stopwords.words("english"))
 # Optional Lottie animation import
 try:
     from streamlit_lottie import st_lottie
