@@ -3,7 +3,8 @@ import joblib
 import re
 import string
 import matplotlib.pyplot as plt
-import numpy as npimport nltk
+import numpy as np
+import nltk
 
 # Ensure stopwords are downloaded
 nltk.download('stopwords')
